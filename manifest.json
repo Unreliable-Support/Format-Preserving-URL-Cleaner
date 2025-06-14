@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "URL Temizleyici Pro (Format Korumalı)",
+  "version": "1.2",
+  "description": "Seçili metindeki Google URL yönlendirmelerini temizler ve URL kodlarını çözer. Metin formatını korur.",
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "URL Temizleyici Pro (Format Korumalı)"
+  }
+}
