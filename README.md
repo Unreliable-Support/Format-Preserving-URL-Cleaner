@@ -4,9 +4,6 @@ A powerful Chrome extension designed to clean up messy URLs copied from Google s
 
 Have you ever copied a link with bold or italic text, only to have a simple find-and-replace tool wipe out all your formatting? This extension solves that problem. It intelligently targets *only the text content* for cleanup, leaving the surrounding HTML structure (like `<b>`, `<i>`, `<a>` tags) completely intact.
 
-*(Recommendation: Create a short GIF showing the extension cleaning a link inside a `contenteditable` area like Google Docs or Notion, and replace this text with it.)*
-`![Demo GIF](demo.gif)`
-
 ## Key Features
 
 -   **Preserves Rich Text Formatting**: The core feature. It safely cleans URLs inside formatted text (bold, italics, different fonts, etc.) without breaking the style.
